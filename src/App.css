@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7f7fb;
+}
+
+.header {
+  width: 100%;
+  padding: 28px 20px;
+  color: white;
+  text-align: center;
+  background: linear-gradient(135deg, #4c1d95, #7c3aed);
+  box-shadow: 0 3px 10px rgba(76, 29, 149, 0.3);
+}
+
+.header .container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.header h1 {
+  margin: 0 0 8px;
+  font-size: 30px;
+}
+
+.header p {
+  margin: 0;
+  font-size: 16px;
+  color: #e9ddff;
+}
+
+.home-container {
+  min-height: 70vh;
+  padding: 30px 20px;
+}
+
+.welcome {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+}
