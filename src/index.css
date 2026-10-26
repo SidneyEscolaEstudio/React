@@ -110,8 +110,7 @@ code {
   background: var(--code-bg);
 }
 
-
-/* Ajuste para centralizar o conteúdo da página */
+Ajuste para centralizar o conteúdo da página
 
 body {
   display: flex;
@@ -167,3 +166,4 @@ body {
   display: flex;
   flex-direction: column;
 }
+

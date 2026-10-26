@@ -10,7 +10,7 @@ function ProdutoCard() {
       <h3>Smartphone Galaxy S24</h3>
 
       <p>
-        Desempenho de outro nível com câmera incrível.
+        Desempenho de outro nível com câmera incrível 
       </p>
 
       <strong>R$ 2.499,00</strong>

@@ -5,7 +5,7 @@ function Footer() {
 
       <div className="footer-content">
         <p>📱 React Mobile Shop</p>
-        <p>Escola Estúdio • Professor Sidney</p>
+        <p>Escola Estúdio • Professor Sidney | Alunos DEVS </p>
 
         <p className="copyright">
           © 2025 Todos os direitos reservados.
