@@ -217,3 +217,10 @@
   }
 }
 
+
+/* Inclui o padding na largura para evitar rolagem horizontal. */
+.header,
+.home-container,
+.produto-card {
+  box-sizing: border-box;
+}

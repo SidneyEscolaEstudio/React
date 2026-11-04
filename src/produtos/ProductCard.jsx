@@ -1,21 +1,20 @@
-function ProdutoCard() {
+function ProdutoCard({ nome, preco, imagem, descricao }) {
   return (
     <div className="produto-card">
-      <img
-        src="/imagens/galaxy-s24.png"
-        alt="Smartphone Galaxy S24"
-        className="produto-imagem"
-      />
+      {imagem ? (
+        <img src={imagem} alt={nome} className="produto-imagem" />
+      ) : (
+        <div className="produto-imagem" role="img" aria-label={`Imagem de ${nome} em breve`}>
+          Imagem em breve
+        </div>
+      )}
 
-      <h3>Smartphone Galaxy S24</h3>
-
-      <p>
-        Desempenho de outro nível com câmera incrível 
-      </p>
-
-      <strong>R$ 2.499,00</strong>
-
-      <button>Comprar</button>
+      <h3>{nome}</h3>
+      <p>{descricao}</p>
+      <strong>
+        {preco.toLocaleString("pt-BR", { style: "currency", currency: "BRL" })}
+      </strong>
+      <button type="button">Comprar</button>
     </div>
   );
 }
