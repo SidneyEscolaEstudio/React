@@ -224,3 +224,40 @@
 .produto-card {
   box-sizing: border-box;
 }
+
+/* Aula 04 — contador didático e favorito dos produtos */
+.contador-aula {
+  margin: 0 0 24px;
+}
+
+.contador-aula button {
+  min-width: 44px;
+  min-height: 44px;
+  margin: 8px 4px 0;
+  background: #6d28d9;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.produto-acoes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.produto-acoes button {
+  min-height: 44px;
+  padding-inline: 12px;
+}
+
+.produto-card .botao-favorito[aria-pressed="false"] {
+  background: #ede9fe;
+  color: #4c1d95;
+}
+
+.produto-card .botao-favorito[aria-pressed="true"] {
+  background: #a11141;
+}

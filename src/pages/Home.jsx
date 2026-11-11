@@ -1,3 +1,4 @@
+// import Contador from "../components/Contador";
 import ProductCard from "../produtos/ProductCard";
 
 // Cada objeto reúne os dados de um produto do catálogo.
@@ -38,6 +39,8 @@ function Home() {
           Hoje construimos nossa Home Page, com o cabeçalho e rodapé, além de um card de produto.
         </p>
       </div>
+
+      {/* <Contador /> */}
 
       <section className="products" aria-label="Catálogo de produtos">
         {produtos.map((produto) => (
