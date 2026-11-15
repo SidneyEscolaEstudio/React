@@ -261,3 +261,11 @@
 .produto-card .botao-favorito[aria-pressed="true"] {
   background: #a11141;
 }
+
+/* AULA 04: acréscimos. As regras anteriores continuam preservadas. */
+.quantidade { display:flex; align-items:center; justify-content:center; gap:16px; margin-top:16px; }
+.quantidade button { padding:10px 16px; min-width:44px; }
+.produto-card button:disabled { opacity:.4; cursor:not-allowed; }
+.produto-card button:focus-visible { outline:3px solid #0891b2; outline-offset:3px; }
+.produto-card .botao-favorito[aria-pressed="true"] { background:#be185d; color:white; }
+.produto-card .subtotal { color:#4c1d95; font-weight:700; font-size:17px; }
